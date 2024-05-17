@@ -23,7 +23,7 @@ public class HibernateUtil {
 				Properties properties = new Properties();
 
 				properties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-				properties.put(Environment.URL, "jdbc:postgresql://localhost:5432/expense_tracker_db_hadk");
+				properties.put(Environment.URL, "jdbc:postgresql://dpg-cp3iedo21fec73b83pe0-a.oregon-postgres.render.com:5432/expense_tracker_db_hadk");
 				properties.put(Environment.USER, "expense_tracker_db_hadk_user");
 				properties.put(Environment.PASS, "3G6cXby1fhbC9lqzzvb6xwQ4F09Y1in2");
 				properties.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
